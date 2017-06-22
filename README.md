@@ -13,7 +13,7 @@ The Action service is seeded with two action plans:
 * name: `BRES`
 
 ## Case Service
-Execute `case/install_test_data.sql` to load a reporting unit (*B*) case and associated events, respondent (*BI*) case and associated events, and parent case group into the Case service.
+Run `case/install_test_data.sql` to load a reporting unit (*B*) case and associated events, respondent (*BI*) case and associated events, and parent case group into the Case service.
 
 ### Case group
 * id: `9a5f2be5-f944-41f9-982c-3517cfcfef3c`
