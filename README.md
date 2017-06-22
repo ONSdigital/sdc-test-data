@@ -13,7 +13,7 @@ The Action service is seeded with two action plans:
 * name: `BRES`
 
 ## Case Service
-Execute `case/install_test_data.sql` to load a reporting unit (*B*) case, respondent (*BI*) case and parent case group into the Case service.
+Execute `case/install_test_data.sql` to load a reporting unit (*B*) case and associated events, respondent (*BI*) case and associated events, and parent case group into the Case service.
 
 ### Case group
 * id: `9a5f2be5-f944-41f9-982c-3517cfcfef3c`
@@ -31,7 +31,9 @@ The Collection Exercise service is seeded with standing data for one collection 
 * name: `BRES_2016`
 
 ## Collection Instrument Service
-*Pending.*
+Execute `collectioninstrument/install_test_data.sql` to load a collection instrument.
+
+* id: `40c7c047-4fb3-4abe-926e-bf19fa2c0a1e`
 
 ## Party Service
 Execute `party/install_test_data.sql` to load a reporting unit (*B*) party, respondent (*BI*) party and the enrolment association between them into the Party service.
@@ -43,7 +45,7 @@ Execute `party/install_test_data.sql` to load a reporting unit (*B*) party, resp
 * id: `db036fd7-ce17-40c2-a8fc-932e7c228397`
 
 ## Sample Service
-*Pending.*
+Execute `sample/install_test_data.sql` to load a sample unit for reporting unit `49900000000`.
 
 ## Survey Service
 The Survey service is seeded with standing data for the BRES survey:
