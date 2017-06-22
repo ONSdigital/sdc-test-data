@@ -31,6 +31,8 @@ The Collection Exercise service is seeded with standing data for one collection 
 * name: `BRES_2016`
 
 ## Collection Instrument Service
+*Pending.*
+
 ## Party Service
 Execute `party/install_test_data.sql` to load a reporting unit (*B*) party, respondent (*BI*) party and the enrolment association between them into the Party service.
 
@@ -41,6 +43,8 @@ Execute `party/install_test_data.sql` to load a reporting unit (*B*) party, resp
 * id: `db036fd7-ce17-40c2-a8fc-932e7c228397`
 
 ## Sample Service
+*Pending.*
+
 ## Survey Service
 The Survey service is seeded with standing data for the BRES survey:
 
