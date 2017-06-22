@@ -1,5 +1,5 @@
 # Survey Data Collection Platform Test Data
-This repository contains test data for the microservices that make up the Survey Data Collection (SDC) platform.
+This repository contains test data for the Respondent Account Services (RAS) and Response Management (RM) microservices that make up the Survey Data Collection (SDC) platform. This test data contains a single loaded sample unit and reflects the stage in the lifecycle at which a respondent has successfully enroled for the BRES collection exercise.
 
 ## Action Service
 The Action service is seeded with two action plans:
