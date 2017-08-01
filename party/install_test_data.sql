@@ -1,4 +1,7 @@
 insert into business (business_ref, party_uuid, attributes)
+	values (49900000000, '3b136c4b-7a14-4904-9e01-13364dd7b972', '"{\"contactName\": \"Test User\", \"employeeCount\": 50, \"enterpriseName\": \"ABC Limited\", \"facsimile\": \"+44 1234 567890\", \"fulltimeCount\": 35, \"legalStatus\": \"Private Limited Company\", \"name\": \"Bolts and Ratchets Ltd\", \"sic2003\": \"2520\", \"sic2007\": \"2520\", \"telephone\": \"+44 1234 567890\", \"tradingName\": \"ABC Trading Ltd\", \"turnover\": 350}"');
+
+insert into business (business_ref, party_uuid, attributes)
 	values (49900000001, '3b136c4b-7a14-4904-9e01-13364dd7b973', '"{\"contactName\": \"Test User\", \"employeeCount\": 50, \"enterpriseName\": \"ABC Limited\", \"facsimile\": \"+44 1234 567890\", \"fulltimeCount\": 35, \"legalStatus\": \"Private Limited Company\", \"name\": \"Bolts and Ratchets Ltd\", \"sic2003\": \"2520\", \"sic2007\": \"2520\", \"telephone\": \"+44 1234 567890\", \"tradingName\": \"ABC Trading Ltd\", \"turnover\": 350}"');
 
 insert into business (business_ref, party_uuid, attributes)
@@ -34,7 +37,7 @@ insert into business (business_ref, party_uuid, attributes)
 
 
 insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228397', 'test.user@email.com', 'Test', 'User', '1234');
+	values ('db036fd7-ce17-40c2-a8fc-932e7c228397', 'testuser@email.com', 'Test', 'User', '1234');
 
 insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
 	values ('db036fd7-ce17-40c2-a8fc-932e7c228398', 'test.user2@email.com', 'Test', 'User2', '1234');
