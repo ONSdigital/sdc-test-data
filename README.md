@@ -38,6 +38,12 @@ Run `collectioninstrument/install_test_data.sql` to load a collection instrument
 ## Party Service
 Run `party/install_test_data.sql` to load a reporting unit (*B*) party, respondent (*BI*) party and the enrolment association between them into the Party service.
 
+To run on your local machine to push data onto a local instance of Postgresql you can do:
+
+	/> psql -h 127.0.0.1 -d postgres -U postgres -p 5432 -f  install_test_data.sql
+
+Where the database name is postgres, user postgres on port 5432. 
+
 ### Reporting unit party
 * id: `3b136c4b-7a14-4904-9e01-13364dd7b972`
 
