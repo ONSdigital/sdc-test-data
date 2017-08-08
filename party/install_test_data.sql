@@ -34,33 +34,33 @@ insert into business (business_ref, party_uuid, attributes)
 insert into business (business_ref, party_uuid, attributes)
 	values (49900000011, '3b136c4b-7a14-4904-9e01-13364dd7b983', '"{\"ruref\": \"49900000011\", \"checkletter\": \"A\", \"frosic92\": \"11111\", \"frosic2007\": \"11111\", \"rusic2007\": \"11111\", \"froempment\": 50, \"frotover\": 50, \"entref\": \"1234567890\", \"legalstatus\": \"B\", \"entrepmkr\": \"C\", \"region\": \"DE\", \"birthdate\": \"01/09/1993\", \"entname1\": \"ENTNAME1\", \"entname2\": \"ENTNAME2\", \"entname3\": \"ENTNAME3\", \"runame1\": \"Bolts\", \"runame2\": \"and\", \"runame3\": \"Ratchets 11 Ltd\", \"tradstyle1\": \"TRADSTYLE1\", \"tradstyle2\": \"TRADSTYLE2\", \"tradstyle3\": \"TRADSTYLE3\", \"seltype\": \"F\", \"inclexcl\": \"G\", \"cell_no\": 1, \"formtype\": \"0001\", \"currency\": \"H\",\"name\": \"Bolts and Ratchets 11 Ltd\"}"');
 
-insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228397', 'testuser@email.com', 'Test', 'User', '1234');
+insert into respondent (party_uuid, status, email_address, first_name, last_name, telephone)
+	values ('db036fd7-ce17-40c2-a8fc-932e7c228397', 'CREATED','testuser@email.com', 'Test', 'User', '1234');
 
-insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228398', 'test.user2@email.com', 'Test', 'User2', '1234');
+insert into respondent (party_uuid, status, email_address, first_name, last_name, telephone)
+	values ('db036fd7-ce17-40c2-a8fc-932e7c228398', 'CREATED','test.user2@email.com', 'Test', 'User2', '1234');
 
-insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228399', 'test.user3@email.com', 'Test', 'User3', '1234');
+insert into respondent (party_uuid, status, email_address, first_name, last_name, telephone)
+	values ('db036fd7-ce17-40c2-a8fc-932e7c228399', 'CREATED','test.user3@email.com', 'Test', 'User3', '1234');
 
-insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228400', 'test.user4@email.com', 'Test', 'User4', '1234');
+-- insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
+	-- values ('db036fd7-ce17-40c2-a8fc-932e7c228400', 'test.user4@email.com', 'Test', 'User4', '1234');
 
-insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228401', 'test.user5@email.com', 'Test', 'User5', '1234');
+-- insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
+	-- values ('db036fd7-ce17-40c2-a8fc-932e7c228401', 'test.user5@email.com', 'Test', 'User5', '1234');
 
-insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228402', 'test.user6@email.com', 'Test', 'User6', '1234');
+-- insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
+	-- values ('db036fd7-ce17-40c2-a8fc-932e7c228402', 'test.user6@email.com', 'Test', 'User6', '1234');
 
-insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228403', 'test.user7@email.com', 'Test', 'User7', '1234');
+-- insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
+	-- values ('db036fd7-ce17-40c2-a8fc-932e7c228403', 'test.user7@email.com', 'Test', 'User7', '1234');
 
-insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228404', 'test.user8@email.com', 'Test', 'User8', '1234');
+-- insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
+	-- values ('db036fd7-ce17-40c2-a8fc-932e7c228404', 'test.user8@email.com', 'Test', 'User8', '1234');
 
-insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228405', 'test.user9@email.com', 'Test', 'User9', '1234');
+-- insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
+	-- values ('db036fd7-ce17-40c2-a8fc-932e7c228405', 'test.user9@email.com', 'Test', 'User9', '1234');
 
-insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
-	values ('db036fd7-ce17-40c2-a8fc-932e7c228406', 'test.user10@email.com', 'Test', 'User10', '1234');
+-- insert into respondent (party_uuid, email_address, first_name, last_name, telephone)
+	-- values ('db036fd7-ce17-40c2-a8fc-932e7c228406', 'test.user10@email.com', 'Test', 'User10', '1234');
 	
