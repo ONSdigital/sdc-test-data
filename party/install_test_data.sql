@@ -63,4 +63,8 @@ insert into respondent (party_uuid, status, email_address, first_name, last_name
 
 insert into respondent (party_uuid, status, email_address, first_name, last_name, telephone)
 	values ('db036fd7-ce17-40c2-a8fc-932e7c228406', 'ACTIVE', 'test.user10@email.com', 'Test', 'User10', '1234');
+
+insert into respondent (party_uuid, status, email_address, first_name, last_name, telephone)
+	values ('db036fd7-ce17-40c2-a8fc-932e7c228407', 'ACTIVE', 'BRES', 'BRES', 'ONS', '1234');
+
 	
